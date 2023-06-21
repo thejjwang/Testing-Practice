@@ -6,14 +6,16 @@ function reverseString(str) {
     return reversedStr;
 }
 function isPalindrome(str) {
-    let reversedStr = ''; 
-    str = str.toLowerCase();
-    for (let i = str.length - 1; i >= 0; i--) {
-        reversedStr += str[i];
-    }
-    if (str === reversedStr) {
-        return true;
-    } 
+    let reversedStr = str.toLowerCase().split('').reverse().join('');
+    console.log(reversedStr);
+    return str === reversedStr;
+    // let reversedStr = ''; 
+    // str = str.toLowerCase();
+    // for (let i = str.length - 1; i >= 0; i--) {
+    //     reversedStr += str[i];
+    // }
+    // if (str === reversedStr) {
+    //     return true;
+    // } 
 }
-
 module.exports = {reverseString, isPalindrome};
