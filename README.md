@@ -32,6 +32,9 @@ Write test cases in shoppingCart.test.js to verify the correctness of each funct
 Run the tests using Jest and ensure that all tests pass.
 Part 4: JS Algorithm Problems. Write both the functions and the Test files for those functions exactly as you did for the above.
 
+REFACTOR isPalindrome to make it better (use string methods instead)
+READ data fetching 
+
 Easy: Two Sum
 
 Description: Given an array of integers nums and a target integer target, return indices of the two numbers such that they add up to the target.
